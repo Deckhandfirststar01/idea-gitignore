@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "hsz <jakub@hsz.mobi>",
   "license": "MIT",
@@ -20,7 +21,7 @@
     "gulp-uglify": "^3.0.0",
     "jquery": "^3.2.1",
     "semantic-ui-css": "^2.2.10",
-    "snyk": "^1.69.5"
+    "snyk": "^1.85.0"
   },
   "snyk": true
 }
